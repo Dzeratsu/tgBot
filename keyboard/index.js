@@ -3,8 +3,8 @@ import {Markup} from "telegraf";
 
 export const MainMenu= () => {
     return Markup.keyboard([
-        ['Получить консультацию', 'Контакты'],
-        ['Информация о составах']
+        ['\ud83d\udc68\u200d\ud83d\udcbc Получить консультацию', '\ud83d\udcbb Контакты'],
+        ['\ud83d\udcd6 Информация о составах']
     ]).resize()
 }
 
@@ -49,9 +49,9 @@ export const decor = () => {
 
 export const zayvka = () => {
     return Markup.inlineKeyboard([
-        Markup.button.callback('Звонок', 'z0'),
-        Markup.button.callback('Сообщение в телеграмм', 'z1')
+        Markup.button.callback('\u260e\ufe0f Звонок', 'z0'),
+        Markup.button.callback('\u2709\ufe0f Сообщение в телеграмм', 'z1')
     ], {columns:2})
 }
 
-export const arrAction = ['0','1','2','p0','p1','p2','p3','p4','p5','a0','a1','a2','a3','a4','d0','d1','d2','d3','d4','z0','z1']
+export const arrAction = ['0','1','2','p0','p1','p2','p3','p4','p5','a0','a1','a2','a3','a4','d0','d1','d2','d3','d4','z0','z1', 'esc']
