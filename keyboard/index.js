@@ -50,7 +50,7 @@ export const decor = () => {
 export const zayvka = () => {
     return Markup.inlineKeyboard([
         Markup.button.callback('\u260e\ufe0f Звонок', 'z0'),
-        Markup.button.callback('\u2709\ufe0f Сообщение в телеграмм', 'z1')
+        Markup.button.callback('\u2709\ufe0f Сообщение', 'z1')
     ], {columns:2})
 }
 

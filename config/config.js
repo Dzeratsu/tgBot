@@ -1,4 +1,3 @@
 export const TOKEN = '5232724860:AAGjga420EtTfDrVOB_0vWw50sG3XBhRNwU'
 export const PORT = 1415
-const TOKEN_SENDER = '5041349265:AAErGDBbwhF1HYs-WOaZYbO9xPTTsG5nHeA'
-const adminChatID = '5144269138'
+export const ADMIN = '448051333'
