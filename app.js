@@ -48,7 +48,7 @@ class Mask{
     }
 }
 
-/*bot.use(Telegraf.log())*/
+bot.use(Telegraf.log())
 bot.start(ctx => {
     ctx.replyWithHTML(SayHi.text, MainMenu())
 })
@@ -186,5 +186,3 @@ bot.on('contact', ctx => {
 
 bot.hears('Отказаться', ctx => ctx.reply("Вы можете отправить контакты позже!", MainMenu()))
 bot.launch()
-
-//ctx.telegram.sendMessage('5144269138', 'Василий')/> //
